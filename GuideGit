@@ -15,7 +15,7 @@ cat monfichier.ext   "Permet d'afficher le contenu d'un fichier"
 
 
 
-Commande Git:
+Commande pour Git:
 
 git init "initialise le repertoire comme un index git"
 
