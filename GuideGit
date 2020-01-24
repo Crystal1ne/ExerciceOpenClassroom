@@ -1,0 +1,44 @@
+Commande Console Utile:
+
+
+pwd "Permet de connaître le répertoire courant"
+
+ls  "Permet de voir la liste des fichiers et répertoires dans le dossier courant"
+
+cd  "Permet de vous deplacer dans un répertoire"
+
+touch monfichier.ext "Permet de créer un fichier dans le repertoire courant"
+
+mkdir nomrepertoire  " permet de créer un dossier dans le repertoir courant"
+
+cat monfichier.ext   "Permet d'afficher le contenu d'un fichier"
+
+
+
+Commande Git:
+
+git init "initialise le repertoire comme un index git"
+
+git add monfichier.ext  "ajoute un fichier a l'index git"
+
+git add . "ajoute tous les fichier du repertoire courant a l'index git"
+
+git commit -m "ma dexcription"	"fait un commit pour enregistrer les modification avec une description de ce qui est fait"
+
+git commit -a -m "ma description"   ""L'option   -a demande à Git de mettre à jour les fichiers déjà existants dans son index."
+
+git log  "affiche la liste de tous les commits fait pour quitter les log taper q"
+
+git checkout SHADuCommit  "Permet de voir le code d'un ancien commit pour voir les erreurs"
+
+git checkout master  "Permet de revenir au code actuelle"
+
+git reset --hard "permet de supprimer tous les changements fait depuis le dernier commit"
+
+git clone lienGithub  "permet de cloner sur votre machine un repertoire sur github"
+
+git push origin master  "permet d'envoyer sur github les modifications faites sur un répertoire cloner"
+
+git pull origin master  "permet de recuperer les derniere modifications du dépo cloner sur votre machine"
+
+
